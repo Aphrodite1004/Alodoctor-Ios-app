@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>$(DEVELOPMENT_LANGUAGE)</string>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>الو دكتور - المستشفى الالكتروني</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>$(MARKETING_VERSION)</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>com.googleusercontent.apps.562311373665-1fg23bjpmvu2o7b8qlrgvm5b5qte32m4</string>
+			</array>
+		</dict>
+	</array>
+	<key>CFBundleVersion</key>
+	<string>$(CURRENT_PROJECT_VERSION)</string>
+	<key>FirebaseAppDelegateProxyEnabled</key>
+	<false/>
+	<key>LSRequiresIPhoneOS</key>
+	<true/>
+	<key>NSAppleMusicUsageDescription</key>
+	<string>It's notification for receiveing call and for making call and for receiveing messages </string>
+	<key>NSCalendarsUsageDescription</key>
+	<string>we dont have calender in the app</string>
+	<key>NSCameraUsageDescription</key>
+	<string>This app requires access to the camera for video calling and getting new image.</string>
+	<key>NSContactsUsageDescription</key>
+	<string>$(PRODUCT_NAME) we don't need to access contact </string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>We don't use user location for now maybe in the next release</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>we don't use user location as it's not required in this stage</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>This app requires access to the Mic for voice and video calling.</string>
+	<key>NSMotionUsageDescription</key>
+	<string>$(PRODUCT_NAME) motion used for interface </string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>Photos sometimes are required to be included if one user want to provide more details which sometimes photos can describe better than long written word and it's totally optional.</string>
+	<key>NSSpeechRecognitionUsageDescription</key>
+	<string>we don't use speech recognition</string>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>audio</string>
+		<string>fetch</string>
+		<string>remote-notification</string>
+	</array>
+	<key>UILaunchStoryboardName</key>
+	<string>LaunchScreen</string>
+	<key>UIMainStoryboardFile</key>
+	<string>Main</string>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+	</array>
+	<key>UISupportedInterfaceOrientations~ipad</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationPortraitUpsideDown</string>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+	<key>UIViewControllerBasedStatusBarAppearance</key>
+	<false/>
+	<key>io.flutter.embedded_views_preview</key>
+	<true/>
+</dict>
+</plist>
